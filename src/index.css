@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.Title_Search
+{
+    font-size: 36px;
+    font-weight: bold;
+    -webkit-text-stroke-width: 1px;
+    animation-name: ChangeColor;
+    animation-duration:5s ;
+    animation-iteration-count:infinite;
+}
+@keyframes ChangeColor {
+  0%{
+    -webkit-text-stroke-color: #ff0909;
+     color: green;
+
+  }
+  50%{
+    -webkit-text-stroke-color:green;
+      color: #ff0909;
+  }
+  100%{
+    -webkit-text-stroke-color: #ff0909;
+    color: green;
+  }
+}
